@@ -22,7 +22,7 @@ My-Piece
 ├── source.png
 ├── metadata.toml
 ├── 16x9.png
-└── 4x3.txt
+└── 4x3.png
 ```
 - The `metadata.toml` file is parsed by our website generator, as well as orbital. Provide metadata in the `metadata.toml` file.
 	- The fields are:
