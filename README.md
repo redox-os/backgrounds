@@ -26,16 +26,16 @@ My-Piece
 ```
 - The `metadata.toml` file is parsed by our website generator, as well as orbital. Provide metadata in the `metadata.toml` file.
 	- The fields are:
-		- `artist-name = <your alias or real name>`
-		- `artist-contact = <your email>` (if you're not sure, just use the email you're commiting with)
-		- `piece-name = <name of your piece>`
+		- `artist_name = <your alias or real name>`
+		- `artist_contact = <your email>` (if you're not sure, just use the email you're commiting with)
+		- `piece_name = <name of your piece>`
 		- More items may be added in the future
 	- Example `metadata.toml` file:
 ```toml
 [background]
-artist-name = "John Smith"
-artist-contact = "jsmith@redox-os.org"
-piece-name = "Winter Lights"
+artist_name = "John Smith"
+artist_contact = "jsmith@redox-os.org"
+piece_name = "Winter Lights"
 ```
 
 Once you've checked off everything in this list, send us a PR in this repository.
