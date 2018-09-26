@@ -1,4 +1,3 @@
 [background]
-artist_name = "Polymetric"
-artist_contact = "polymetricofficial@gmail.com"
-piece_name = "ARK"
+name = "ARK"
+authors = ["Polymetric <polymetricofficial@gmail.com>"]

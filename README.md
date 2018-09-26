@@ -14,7 +14,7 @@ If you've created a custom desktop background through means of photography, digi
 - The image should be a minimum of 1920x1080 pixels, but preferably 4k and higher if possible. (no scaling!)
 - Thumbnail image should be 160x90 pixels.
 - The source should be uncropped from the original and have a decent-sized buffer/margin area to allow for framing changes.
-- You can provide custom crops/reframes for different aspect ratios, e.g. 16:9, 4:3, 8:5, 7:3. At least 16:9 and 4:3 are required. It's preferred that you also include other ratios like 8:5 and 7:3 if possible, but if it doesn't fit the theme or composition of your image, that's fine. This is because it is preferred for a human to select the framing for each aspect ratio to maintain compositional quality and creative control, but if need be orbital (our desktop enviroment) will do it automatically.
+- You can provide custom crops/reframes for different aspect ratios, e.g. 16:9, 4:3, 8:5, 7:3. At least 16:9 and 4:3 are required. It's preferred that you also include other ratios like 8:5 and 7:3 if possible, but if it doesn't fit the theme or composition of your image, that's fine. This is because it is preferred for a human to select the framing for each aspect ratio to maintain compositional quality and creative control, but if need be Orbital (our desktop enviroment) will do it automatically.
 - Use anything you want to actually create the image. Photography, 3D software, image editing software, etc.
 - Make anything. Abstract, nature, buildings. Make sure you have all the rights to use and distribute it. (e.g. video games, copyrighted symbols, characters, people in general aren't frowned upon by us but may be by others, so just consider this )
 - A new folder with the title of your piece should be made, under which all your files should go. Example directory structure:
@@ -26,18 +26,17 @@ My-Piece
 ├── 16x9.png
 └── 4x3.png
 ```
-- The `metadata.toml` file is parsed by our website generator, as well as orbital. Provide metadata in the `metadata.toml` file.
+- The `metadata.toml` file is parsed by our website generator, as well as Orbital. Provide metadata in the `metadata.toml` file.
 	- The fields are:
-		- `artist_name = <your alias or real name>`
-		- `artist_contact = <your email>` (if you're not sure, just use the email you're commiting with)
-		- `piece_name = <name of your piece>`
+		- `name = "{name of your piece}"`
+		- `authors = ["{your alias or real name} <{your email}>"]`
+			- If you're not sure, just use the email you're commiting with.
 		- More items may be added in the future
 	- Example `metadata.toml` file:
 ```toml
 [background]
-artist_name = "John Smith"
-artist_contact = "jsmith@redox-os.org"
-piece_name = "Winter Lights"
+name = "Winter Lights"
+authors = ["John Smith <jsmith@redox-os.org>"]
 ```
 
 Once you've checked off everything in this list, send us a PR in this repository.

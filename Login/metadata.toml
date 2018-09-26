@@ -1,4 +1,3 @@
 [background]
-artist_name = "Tibor Nagy"
-artist_contact = "xnagytibor@gmail.com"
-piece_name = "Login"
+name = "Login"
+authors = ["Tibor Nagy <xnagytibor@gmail.com>"]
